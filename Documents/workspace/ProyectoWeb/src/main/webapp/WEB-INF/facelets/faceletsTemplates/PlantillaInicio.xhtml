@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <h:outputStylesheet name="./css/default.css"/>
+    <h:outputStylesheet name="./css/cssLayout.css"/>
+    <h:outputStylesheet name="./css/cssLayout.css"/>
+    <title><ui:insert name="title" /></title>
+  </h:head>
+
+  <h:body>
+    <div id="header">
+      <div id="logo">
+        <ui:include src="logo.xhtml"/>
+      </div>
+      <div >
+        <ui:include src="menu.xhtml"/>
+      </div>
+    </div>
+
+    <div id="top">
+      <ui:insert name="top"><span>Página en construcción</span></ui:insert>
+    </div>
+
+    <div id="left">
+      <ui:insert name="top"><span>Página en construcción</span></ui:insert>
+    </div>
+
+    <div id="content" class="center_content">
+      <ui:insert name="content"><span>Página en construcción</span></ui:insert>
+    </div>
+
+    <div id="bottom">
+      <ui:insert name="bottom"><span>Página en construcción</span></ui:insert>
+    </div>
+
+    <div id="footer">
+      <h2>Ministerio de Tecnologías de la Información y las Comunicaciones </h2>
+      <p>Edificio Murillo Toro Cra. 8a entre calles 12 y 13, Bogotá, Colombia - Código Postal 111711</p>
+      <p>Teléfono Conmutador: +57(1) 344 34 60 - Línea Gratuita: 01-800-0914014</p>
+      <p>Horario de Atención: Lunes a Viernes 8:30 am - 4:30 pm.</p>
+      <p>Proyecto Creado por beneficiarios del programa Talento TI</p>
+      <p>Entidad Receptora: <a style="text-decoration: none; color: whitesmoke" href="http://cocrealab.org">Cocrealab</a></p>
+    </div>
+  </h:body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+                  xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html"
+                  xmlns:p="http://primefaces.org/ui">
+    <h:form>
+      <div id="head1">
+        <a href="http://www.mintic.gov.co/portal/604/w3-channel.html"><img src="resources/img/logo-mintic.png" ></img></a>
+        <h1 style="color: #803A8C"><strong>Observatorio TI - Colombia</strong></h1>
+      </div>
+      <div id="login">
+        <h4 align="rigth">Iniciar Sesión - Funcionarios</h4>
+        <h:form>
+          <p:panelGrid class="frIngreso" columns="2">
+            <p:outputLabel value="Usuario"/>
+            <p:inputText value="" placeholder="ingrese su usuario" ></p:inputText>
+            <p:outputLabel value="Contraseña"/>
+            <p:password value=""></p:password>
+            <p:column/>
+            <p:commandButton value="Ingresar" />
+          </p:panelGrid>
+        </h:form>
+      </div>
+    </h:form>
+  </ui:composition>
